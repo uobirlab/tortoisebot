@@ -1,0 +1,17 @@
+<package>
+  <description brief="tortoisebot">
+
+     tortoisebot
+
+  </description>
+  <author>cogx</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>https://github.com/barcuk/tortoisebot/wiki</url>
+  <depend package="turtlebot_bringup"/>
+  <depend package="turtlebot_teleop"/>
+  <depend package="turtlebot_gazebo"/>
+  <depend package="turtlebot_navigation"/>
+</package>
+
+

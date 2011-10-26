@@ -1,0 +1,24 @@
+<package>
+  <description brief="tortoise_braitenberg">
+
+     tortoise_braitenberg
+
+  </description>
+  <author>barc</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://www.cs.bham.ac.uk/research/projects/poplog/robot-club/getting-started/</url>
+  <depend package="rosjava"/>
+  <depend package="nav_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="turtlebot_node"/>
+<!--  <depend package="pointcloud_to_laserscan"/>
+  <depend package="openni_camera"/> -->
+<export>
+    <rosjava-pathelement location="dist/braitenberg.jar" built="true" />
+ </export>
+</package>
+
+

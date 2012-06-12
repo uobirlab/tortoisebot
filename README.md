@@ -22,8 +22,8 @@ walls or to make a homebase for the robot.
 Using
 -----
 
-Marc has constructed a number of launch files to make using the
-tortoisebot easier. Below, I will give a quick sumary of what they
+There are a number of launch files to make using the
+tortoisebot easier. Below, I will give a quick sumary of what the
 various launch files do.
 
 * `tortoise.launch`: This file launches both the turtlebot driver and

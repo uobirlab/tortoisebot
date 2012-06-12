@@ -30,8 +30,8 @@ various launch files do.
   the Kinect as well as creating a view window to see the output of
   the Kinect. This is the file you normaly want to run.
 
-* `driver.lanch`: Starts the node which communicates to the
-  tortoisebot.
+* `driver.lanch`: Starts the node which communicates with the
+  tortoisebot and brings up a state publisher and the URDF robot description.
 
 * `kinect.launch`: Starts the Kinect and sets it up for use with
   localization and people detection.

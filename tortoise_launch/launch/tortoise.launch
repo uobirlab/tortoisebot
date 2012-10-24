@@ -1,8 +1,8 @@
 <launch>
   <!-- Load the Turtlebot driver -->
-  <include file="$(find tortoisebot_based)/launch/driver.launch"/>
+  <include file="$(find tortoise_launch)/launch/driver.launch"/>
   <!-- Load kinect configuration -->
-  <include file="$(find tortoisebot_based)/launch/kinect.launch"/>
+  <include file="$(find tortoise_launch)/launch/kinect.launch"/>
   <!-- Start up an image viewer -->
   <node pkg="image_view" name="viewer" type="image_view">
     <remap to="/camera/rgb/image_color" from="/image" />

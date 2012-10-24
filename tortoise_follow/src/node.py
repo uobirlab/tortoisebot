@@ -6,7 +6,7 @@ import math
 from turtlebot_node.msg import TurtlebotSensorState
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import LaserScan
-from turtle_talk.srv import *
+from talker.srv import *
 from std_msgs.msg import String
 
 FOLLOW_DISTANCE = 1.5

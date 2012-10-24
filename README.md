@@ -40,3 +40,12 @@ various launch files do.
 
 * `keyboard_teleop.launch`: Runs keyboard teleoperation.
 
+Follower Demo
+-------------
+
+```bash
+killall XnSensorServer ; roslaunch tortoise_launch tortoise.launch  
+rosrun talker node.py
+rosrun openni_tracker openni_tracker
+rosrun tortoise_follow node.py
+```
